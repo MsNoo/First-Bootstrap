@@ -1,13 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- CSS only CONNECTION TO BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper CONNECTION TO BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Bootstrap beginner</title>
 </head>
+
 <body>
-    
-    
+
+    <!-- FIRS TASK -->
+
+    <h5 class="text-center my-5">First Task</h5>
+    <!-- Gride :) -->
+    <div class="container">
+        <!-- First row -->
+        <div class="row">
+            <!-- Grid options (luzio taskas) col-sm -->
+            <div class="col-sm border">
+                <p class="text-info">One of three columns</p>
+            </div>
+            <div class="col-sm border">
+                <p class="text-danger">One of three columns</p>
+            </div>
+            <div class="col-sm border">
+                One of three columns
+            </div>
+            <div class="col-sm border">
+                One of three columns
+            </div>
+            <div class="col-sm border">
+                One of three columns
+            </div>
+        </div>
+
+        <!-- Second row -->
+        <div class="row">
+            <div class="col-md border">
+                One of three columns
+            </div>
+            <div class="col-md border">
+                One of three columns
+            </div>
+            <div class="col-md border">
+                One of three columns
+            </div>
+        </div>
+
+        <!-- Third row -->
+        <div class="row">
+            <!-- Grid options (luzio taskas) col-sl -->
+            <div class="col-md border">
+                One of three columns
+            </div>
+            <div class="col-md border">
+                One of three columns
+            </div>
+        </div>
+
+        <!-- SECOND TASK -->
+
+        <h5 class="text-center my-5">Second Task</h5>
+
+        <!-- Table -->
+        </style>
+        <div class="container">
+            <table class="table table-hover table-sm caption-top table-">
+                <caption>List of users</caption>
+                <thead class="text-muted">
+                    <th><p class="text-danger">nr.</p></th>
+                    <th>name</th>
+                    <th>surname</th>
+                    <th>age</th>
+                    <th class="text-center">what to do?</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td><p class="text-info">Jonas</p></td>
+                        <td>Jonaitis</td>
+                        <td>30</td>
+                        <td>
+                            <div class="text-center">
+                                <button style="font-family:'Comic Sans Ms';" class="btn btn-outline-info">show</button>
+                                <button style="font-family:'Comic Sans Ms';"
+                                    class="btn btn-outline-warning">edit</button>
+                                <button style="font-family:'Comic Sans Ms';"
+                                    class="btn btn-outline-danger">delete</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>2.</td>
+                        <td><p class="text-warning">Lina</p></td>
+                        <td>Linaitė</td>
+                        <td>35</td>
+                        <td>
+                            <div class="text-center">
+                                <button style="font-family:'Comic Sans Ms';" class="btn btn-outline-info">show</button>
+                                <button style="font-family:'Comic Sans Ms';"
+                                    class="btn btn-outline-warning">edit</button>
+                                <button style="font-family:'Comic Sans Ms';"
+                                    class="btn btn-outline-danger">delete</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>3.</td>
+                        <td><p class="text-danger">Kostas</p></td>
+                        <td>Kostaitis</td>
+                        <td>40</td>
+                        <td>
+                            <div class="text-center">
+                                <button style="font-family:'Comic Sans Ms';" class="btn btn-outline-info">show</button>
+                                <button style="font-family:'Comic Sans Ms';"
+                                    class="btn btn-outline-warning">edit</button>
+                                <button style="font-family:'Comic Sans Ms';"
+                                    class="btn btn-outline-danger">delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
 </body>
+
 </html>
